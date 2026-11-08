@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ArrowRight, CalendarDays, Check, ChevronDown, Eye, Glasses, MapPin, Menu, MessageCircle, Phone, Sun, X } from 'lucide-react'
+import { ArrowRight, CalendarDays, Check, Eye, Glasses, MapPin, Menu, MessageCircle, Phone, Sun, X } from 'lucide-react'
 import { business, whatsappUrl } from './config'
 import './styles.css'
 
@@ -12,8 +12,8 @@ const products: Product[] = [
   { name: 'The Regent', category: "Men's Eyewear", price: 'PKR 9,600', tone: 'olive', image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=85' },
   { name: 'Solace', category: 'Sunglasses', price: 'PKR 10,500', tone: 'sand', image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=85' },
   { name: 'The Archive', category: 'Classic Frames', price: 'PKR 8,200', tone: 'charcoal', image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=900&q=85' },
-  { name: 'Marlow', category: "Women's Eyewear", price: 'PKR 9,200', tone: 'rose', image: 'https://i.etsystatic.com/17800643/r/il/dd6ed7/3850637298/il_fullxfull.3850637298_g1xa.jpg' },
-  { name: 'Verde', category: "Men's Eyewear", price: 'PKR 9,900', tone: 'green', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX2NqHNnIcFoud8sz_aW0gkNSpsQUou_N9nfBQZ2mMILEtutdQ7moLqaw&s=10' },
+  { name: 'Marlow', category: "Women's Eyewear", price: 'PKR 9,200', tone: 'rose', image: 'https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?auto=format&fit=crop&w=900&q=85' },
+  { name: 'Verde', category: "Men's Eyewear", price: 'PKR 9,900', tone: 'green', image: 'https://images.unsplash.com/photo-1556306535-0f09a537f0a3?auto=format&fit=crop&w=900&q=85' },
 ]
 
 const links = [
