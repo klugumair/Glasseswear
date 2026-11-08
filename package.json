@@ -22,5 +22,18 @@
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klugumair/Glasseswear.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klugumair/Glasseswear/issues"
+  },
+  "homepage": "https://github.com/klugumair/Glasseswear#readme"
 }
